@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# Пример 2
+
 if __name__ == '__main__':
     word = input("Введите слово: ")
 
@@ -11,4 +13,4 @@ if __name__ == '__main__':
     else:
         # Длина слова четная.
         r = word[:idx - 1] + word[idx + 1:]
-    print(r)
+    print(f"{r}")
